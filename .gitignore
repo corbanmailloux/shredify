@@ -1,2 +1,7 @@
+# Jekyll - the "_site" directory is basically a compiled version of the website.
 _site/
 .sass-cache/
+
+# Sublime Text - workspace files are user-specific
+*.sublime-workspace
+
