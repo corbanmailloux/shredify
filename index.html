@@ -25,7 +25,7 @@
   <body>
     {% for celeb in site.celebs %}
     <a href="{{ celeb.url }}">
-      <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}"/>
+      <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}" class="img-responsive img-thumbnail"/>
       <p>#{{ celeb.hashtag }}</p>
     </a>
     {% endfor %}
