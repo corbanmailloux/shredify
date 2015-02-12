@@ -23,16 +23,12 @@
     <title>Shredify.Me</title>
   </head>
   <body>
-    <ul>
-      {% for celeb in site.celebs %}
-      <li>
-        <a href="{{ celeb.url }}">
-          <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}"/>
-          <p>#{{ celeb.hashtag }}</p>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% for celeb in site.celebs %}
+    <a href="{{ celeb.url }}">
+      <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}"/>
+      <p>#{{ celeb.hashtag }}</p>
+    </a>
+    {% endfor %}
 
     {% include GoogleAnalytics.html %}
     <!-- Latest compiled and minified JavaScript -->
