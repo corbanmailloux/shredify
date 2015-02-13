@@ -1,37 +1,15 @@
 ---
+layout:     default
+title:      Shredify.Me
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Shredify me.">
-    <meta name="author" content="Corban Mailloux">
-    
-    <!-- Icon -->
-    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
-    
-    <!-- CSSes -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    
-    <link rel="stylesheet" href="/css/main.css">
-
-    <title>Shredify.Me</title>
-  </head>
-  <body>
-    {% for celeb in site.celebs %}
-    <a href="{{ celeb.url }}">
-      <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}" class="img-responsive img-thumbnail"/>
-      <p>#{{ celeb.hashtag }}</p>
-    </a>
-    {% endfor %}
-
-    {% include GoogleAnalytics.html %}
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  </body>
-</html>
+      <div class="row">
+      {{ page.hashtag }}
+      {% for celeb in site.celebs %}
+        <div class="col-xs-4 col-md-3">
+          <a href="{{ celeb.url }}">
+            <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}" class="img-responsive img-thumbnail img-circle"/>
+            <p class="text-center">#{{ celeb.hashtag }}</p>
+          </a>
+        </div>
+      {% endfor %}
+      </div>
