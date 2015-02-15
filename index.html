@@ -4,7 +4,8 @@ title:      Shredify.Me
 ---
       <div class="row">
       {{ page.hashtag }}
-      {% for celeb in site.celebs %}
+      {% assign celebs = site.celebs | sort:"weight"  %}
+      {% for celeb in celebs reversed %}
         <div class="col-xs-4 col-md-3">
           <a href="{{ celeb.url }}">
             <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}" class="img-responsive img-thumbnail img-circle"/>
