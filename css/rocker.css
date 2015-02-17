@@ -1,58 +1,37 @@
 .rocker{
-  animation: rockingBetty linear 1.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-  -webkit-animation: rockingBetty linear 1.5s;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: rockingBetty linear 1.5s infinite;
+          animation: rockingBetty linear 1.5s infinite;
   -webkit-transform-origin: 50% 50%;
-  -moz-animation: rockingBetty linear 1.5s;
-  -moz-animation-iteration-count: infinite;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: rockingBetty linear 1.5s;
-  -o-animation-iteration-count: infinite;
-  -o-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rockingBetty{
+  0%, 100% {
+    -webkit-transform:  rotate(-25deg) ;
+            transform:  rotate(-25deg) ;
+    -webkit-filter: invert(0%);
+            filter: invert(0%);
+  }
+  50% {
+    -webkit-transform:  rotate(25deg) ;
+            transform:  rotate(25deg) ;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
 }
 
 @keyframes rockingBetty{
   0%, 100% {
-    transform:  rotate(-25deg) ;
-    filter: invert(0%);
-  }
-  50% {
-    transform:  rotate(25deg) ;
-    filter: invert(100%);
-  }
-}
-
-@-moz-keyframes rockingBetty{
-  0%, 100% {
-    -moz-transform:  rotate(-25deg) ;
-    -moz-filter: invert(0%);
-  }
-  50% {
-    -moz-transform:  rotate(25deg) ;
-    -moz-filter: invert(100%);
-  }
-}
-
-@-webkit-keyframes rockingBetty {
-  0%, 100% {
     -webkit-transform:  rotate(-25deg) ;
+            transform:  rotate(-25deg) ;
     -webkit-filter: invert(0%);
+            filter: invert(0%);
   }
   50% {
     -webkit-transform:  rotate(25deg) ;
+            transform:  rotate(25deg) ;
     -webkit-filter: invert(100%);
-  }
-}
-
-@-o-keyframes rockingBetty {
-  0%, 100% {
-    -o-transform:  rotate(-25deg) ;
-    -o-filter: invert(0%);
-  }
-  50% {
-    -o-transform:  rotate(25deg) ;
-    -o-filter: invert(100%);
+            filter: invert(100%);
   }
 }
