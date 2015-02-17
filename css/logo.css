@@ -1,0 +1,41 @@
+.logo-text {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+} 
+
+.logo-dot {
+    position: relative;
+    float: left;
+    top: 15px;
+    left: -2px;
+    height: 15px;
+    width: 15px;
+    background-color: #d7af23;
+    border-radius: 15px;
+    -webkit-animation: dotInvert linear 1.5s infinite;
+            animation: dotInvert linear 1.5s infinite;
+}
+
+@-webkit-keyframes dotInvert {
+    0%, 100% {
+        -webkit-filter: invert(0%);
+                filter: invert(0%);
+    }
+    50% {
+        -webkit-filter: invert(100%);
+                filter: invert(100%);
+    }
+}
+
+@keyframes dotInvert {
+    0%, 100% {
+        -webkit-filter: invert(0%);
+                filter: invert(0%);
+    }
+    50% {
+        -webkit-filter: invert(100%);
+                filter: invert(100%);
+    }
+}

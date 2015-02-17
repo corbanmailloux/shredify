@@ -3,13 +3,12 @@ layout:     default
 title:      Shredify.Me
 ---
       <div class="row">
-      {{ page.hashtag }}
       {% assign celebs = site.celebs | sort:"weight"  %}
       {% for celeb in celebs reversed %}
         <div class="col-xs-4 col-md-3">
           <a href="{{ celeb.url }}">
-            <img src="{{ celeb.image }}" alt="#{{ celeb.hashtag }}" class="img-responsive img-thumbnail img-circle"/>
-            <p class="text-center">#{{ celeb.hashtag }}</p>
+            <img src="{{ celeb.image }}" alt="{{ celeb.title }}" class="img-responsive img-thumbnail img-circle"/>
+            <p class="text-center">{{ celeb.title }}</p>
           </a>
         </div>
       {% endfor %}
