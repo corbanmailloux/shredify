@@ -14,7 +14,7 @@
 }
 
 @keyframes rockingBetty{
-  0% {
+  0%, 100% {
     transform:  rotate(-25deg) ;
     filter: invert(0%);
   }
@@ -22,14 +22,10 @@
     transform:  rotate(25deg) ;
     filter: invert(100%);
   }
-  100% {
-    transform:  rotate(-25deg) ;
-    filter: invert(0%);
-  }
 }
 
 @-moz-keyframes rockingBetty{
-  0% {
+  0%, 100% {
     -moz-transform:  rotate(-25deg) ;
     -moz-filter: invert(0%);
   }
@@ -37,14 +33,10 @@
     -moz-transform:  rotate(25deg) ;
     -moz-filter: invert(100%);
   }
-  100% {
-    -moz-transform:  rotate(-25deg) ;
-    -moz-filter: invert(0%);
-  }
 }
 
 @-webkit-keyframes rockingBetty {
-  0% {
+  0%, 100% {
     -webkit-transform:  rotate(-25deg) ;
     -webkit-filter: invert(0%);
   }
@@ -52,23 +44,15 @@
     -webkit-transform:  rotate(25deg) ;
     -webkit-filter: invert(100%);
   }
-  100% {
-    -webkit-transform:  rotate(-25deg) ;
-    -webkit-filter: invert(0%);
-  }
 }
 
 @-o-keyframes rockingBetty {
-  0% {
+  0%, 100% {
     -o-transform:  rotate(-25deg) ;
     -o-filter: invert(0%);
   }
   50% {
     -o-transform:  rotate(25deg) ;
     -o-filter: invert(100%);
-  }
-  100% {
-    -o-transform:  rotate(-25deg) ;
-    -o-filter: invert(0%);
   }
 }
