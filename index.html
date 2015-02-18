@@ -3,8 +3,8 @@ layout:     default
 title:      Shredify.Me
 ---
       <div class="row">
-      {% assign celebs = site.celebs | sort:"weight"  %}
-      {% for celeb in celebs reversed %}
+      {% assign celebs = site.celebs | sort: "title" %}
+      {% for celeb in celebs %}
         <div class="col-xs-4 col-md-3">
           <a href="{{ celeb.url }}">
             <img src="{{ celeb.image }}" alt="{{ celeb.title }}" class="img-responsive img-thumbnail img-circle"/>
