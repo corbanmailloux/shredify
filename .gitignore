@@ -5,3 +5,4 @@ _site/
 # Sublime Text - workspace files are user-specific
 *.sublime-workspace
 
+Thumbs.db

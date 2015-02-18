@@ -14,7 +14,7 @@ owner:
 
 
 # Limit what is hosted on the site.
-exclude: ["runServer.bat", "CNAME", "Gemfile", "Gemfile.lock", "README.md"]
+exclude: ["runServer.bat", "CNAME", "README.md", ".gitignore", ".pleeeaserc"]
 
 collections:
   celebs:
