@@ -7,7 +7,7 @@ title:      Shredify.Me
       {% for celeb in celebs %}
         <div class="col-xs-4 col-md-3">
           <a href="{{ celeb.url }}">
-            <img src="{{ celeb.image }}" alt="{{ celeb.title }}" class="img-responsive img-thumbnail img-circle"/>
+            <img src="{{ celeb.image }}" alt="{{ celeb.title | escape }}" class="img-responsive img-thumbnail img-circle"/>
             <p class="text-center">{{ celeb.title }}</p>
           </a>
         </div>
