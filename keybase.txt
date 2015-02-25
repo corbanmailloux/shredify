@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/corbanmailloux
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shredify.me
+  * I am corbanmailloux (https://keybase.io/corbanmailloux) on keybase.
+  * I have a public key with fingerprint CA0D 8FC9 7FD6 B456 570B  2A71 E16F 7376 A681 1A50
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ca0d8fc97fd6b456570b2a71e16f7376a6811a50",
+            "host": "keybase.io",
+            "key_id": "e16f7376a6811a50",
+            "kid": "0101a776786f38ada07c8692bef1a182391b370a12e9513542c1b4f01a592c90a1e80a",
+            "uid": "1e2316608a21e35dc26d1ed900005d00",
+            "username": "corbanmailloux"
+        },
+        "service": {
+            "hostname": "shredify.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424828768,
+    "expire_in": 157680000,
+    "prev": "36150eeec972db2bc97a75dd7a1ffaf2240342c4f2cdc1885305fe3b32b7efd5",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.4
+Comment: https://keybase.io/crypto
+
+yMIhAnicbVJrSBRRFF4f6bqVivkn8EETUcayzr2z8xJ/mFGaoZFYimjbnbl3dHZ1
+Z53Z3XZTiQoi6GV/UgwM+iEERZhK+Udbe4I9MJBeJPZCiJL6oSAFdkfsX/fP4Zzz
+ne+c79zzcGOKw5W0PD6Qdwc3nkiaSlREHHU/io52MoqB40xJJxMgq0bTgy3EDJl6
+MMyUMCpisaSpsqhhQfHyAi+yCkQiIEDQRE4UkCABgHiWcTOthmVXUBoFWcSjGzRG
+HZ+OafQ/+MBqggUsQKIoiJKgcRLCiBVVSZChQjSAgAQ5GSicyCIAicwDjvdCFShe
+jRbxMlRlmiASiyhdZJUOEMgBQWAlBAHheKxCAQOCZZY+HrN234hFzCBqJ7Y6w1RQ
+sB3pbW1GJMZ0uxmai+oqsRdh61nDWa0mwboW91DPzYRMI2yoRhtNtIbDIavELgzH
+QzbyGFF8axw+RQ9iukxaESWmpRtBpgRQpBrWbVLghV4JSqIguRkSC+km8ek2gqcR
+e1q7D4lSSk4APEsIoZ8AsQIVapHIYywioGlIg9DLcnQrXg2qWAWSxHMsrxFO4aAi
+Eg3zjK2qI2hQbpnOiVpsQXpLEIUjJmG6J+83pTqSXI60dcn2PThcGdn/rqSuy+m4
+lBSYrim/Wemcl30H6ue4hpSvfZ7yZVdx2eIuZ2pNwZ/KvRffNSbqcz5cqZzC5aey
+ny55CoeZogYjs7/s12blYOnjnm0v0NhoHrsyWNs1nDiftfgxEHhuDi7uC7xqHhn8
+9qm9qv5PonphrmCBLUz9nrj920zvSRuM49nx+Mmh8pnkSan5evdQx+myrLvNtwrT
+Cox44lGbsv+4lOPPzTwze3Zr/vodVS8rRzYdkXqnogMZsUOjM9Ye/mpdjDyYXpq8
+lx6NFLvUWIY/12l99r++8aS96fLEm4rd23PyR98K5zKXJnpLf85ucDb6D79/Vrvz
+Qtq1Lf3ZfV+W51eqx3L/AnEkIjU=
+=8xo8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/corbanmailloux
+
+==================================================================
