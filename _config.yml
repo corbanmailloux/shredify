@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 encoding: UTF-8
 
-url: http://shredify.me
+url: https://shredify.me
 
 # Owner/author information
 owner:
