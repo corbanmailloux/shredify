@@ -3,6 +3,13 @@ layout:     default
 title:      Shredify.Me
 ---
       <div class="row">
+        <div class="col-xs-12">
+          <div class="alert alert-warning">
+            <p><b>Warning!</b> Autoplaying music ahead!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
       {% assign celebs = site.celebs | sort: "title" %}
       {% for celeb in celebs %}
         <div class="col-xs-4 col-md-3">
