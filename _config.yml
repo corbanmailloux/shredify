@@ -14,7 +14,7 @@ gems:
   - jekyll-sitemap
 
 # Limit what is hosted on the site.
-exclude: ["runServer.bat", "CNAME", "README.md", ".gitignore", ".pleeeaserc"]
+exclude: ["runServer.bat", "CNAME", "README.md", ".gitignore", ".pleeeaserc", "*.sublime-*"]
 
 collections:
   celebs:
