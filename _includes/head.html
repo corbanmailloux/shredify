@@ -42,11 +42,17 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shreds <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 {% assign celebs = site.celebs | sort: "title" %}
-                {% for celeb in celebs %}
+                {% for celeb in celebs %}{% unless celeb.audio == "shred" %} {% comment %} Temporary. Allows splitting custom audio. {% endcomment %}
+                  <li>
+                    <a href="{{ celeb.url }}">♪ {{ celeb.title }} ♪</a>
+                  </li>
+                {% endunless %}{% endfor %}
+                <li class="divider"></li>
+                {% for celeb in celebs %}{% if celeb.audio == "shred" %} {% comment %} Temporary. Allows splitting custom audio. {% endcomment %}
                   <li>
                     <a href="{{ celeb.url }}">{{ celeb.title }}</a>
                   </li>
-                {% endfor %}
+                {% endif %}{% endfor %}
               </ul>
             </li>
           </ul>
